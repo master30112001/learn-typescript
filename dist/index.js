@@ -18,3 +18,23 @@ mytuparr = [
     [3, true],
 ];
 console.log(mytuparr);
+// UNION
+let n;
+n = 22;
+n = "hello";
+const user1 = {
+    id: 1,
+    name: "vedant",
+};
+// FUNCTIONS
+function myfunc(x, y) {
+    return x + y;
+}
+// return void
+function myfunc2(x) {
+    console.log(x);
+}
+const user2 = {
+    id: 1,
+    name: "vedant",
+};
