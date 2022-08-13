@@ -1,0 +1,13 @@
+`tsc` 
+compiles typescript file wherever it gets it
+
+`tsc --watch`
+keeps watching for any change & recompiles whenever a change is made 
+
+`tsc --init`
+tsconfig file is generated
+
+Inside tsconfig ->
+    "rootDir": "./src"   // this is where your code is 
+    "outDir": "./dist"   // this is where your output will be (js file after compilation)
+
