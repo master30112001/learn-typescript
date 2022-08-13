@@ -1,6 +1,6 @@
 "use strict";
 let i = 5;
-console.log(i);
+// console.log(i);
 // basic types
 let j = "hello";
 let k = true;
@@ -17,7 +17,7 @@ mytuparr = [
     [2, false],
     [3, true],
 ];
-console.log(mytuparr);
+// console.log(mytuparr);
 // UNION
 let n;
 n = 22;
@@ -38,3 +38,19 @@ const user2 = {
     id: 1,
     name: "vedant",
 };
+// mathfunc will check if the myadd function has same parameter and return type format
+const myadd = (x, y) => {
+    return x + y;
+};
+const mysub = (x, y) => {
+    return x - y;
+};
+// Classes
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+const vedant = new Person(1, "vedant");
+// console.log(vedant);
