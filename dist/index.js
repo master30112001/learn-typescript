@@ -45,12 +45,14 @@ const myadd = (x, y) => {
 const mysub = (x, y) => {
     return x - y;
 };
-// Classes
 class Person {
     constructor(id, name) {
         this.id = id;
         this.name = name;
     }
+    register() {
+        return `${this.name} is registered`;
+    }
 }
 const vedant = new Person(1, "vedant");
-// console.log(vedant);
+console.log(vedant.register());

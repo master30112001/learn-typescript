@@ -88,7 +88,13 @@ const mysub: mathfunc = (x: number, y: number): number => {
 
 // Classes
 
-class Person {
+interface PersonInterface {
+  id: number;
+  name: string;
+  register(): string;
+}
+
+class Person implements PersonInterface {
   id: number;
   name: string;
 
@@ -96,8 +102,12 @@ class Person {
     this.id = id;
     this.name = name;
   }
+
+  register() {
+    return `${this.name} is registered`;
+  }
 }
 
 const vedant = new Person(1, "vedant");
 
-// console.log(vedant);
+console.log(vedant.register());
