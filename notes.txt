@@ -3,6 +3,7 @@ compiles typescript file wherever it gets it
 
 `tsc --watch`
 keeps watching for any change & recompiles whenever a change is made 
+keeps compiling the typescript files
 
 `tsc --init`
 tsconfig file is generated
